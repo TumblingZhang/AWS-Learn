@@ -8,3 +8,5 @@ yum install git
 chmod 400 twopath.cer
 
 ssh -i 
+
+scp -i /Users/bolinz/Documents/AWS/twopath.cer file_to_send ec2-user@ip:/home/user/images/
